@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#0F2346">
+  <title>Central Aviation | Professional Flight Training</title>
+
+  <meta name="description"
+        content="Central Aviation provides structured, professional flight training at Eastern WV Regional Airport (KMRB). Serving Martinsburg WV, Winchester VA, Hagerstown MD, Charles Town WV, and Northern Virginia." />
+
+  <meta name="keywords"
+        content="flight training Martinsburg WV, flight school KMRB, learn to fly West Virginia, flight training near Winchester VA, flight school near Hagerstown MD, private pilot training Martinsburg, CFI Martinsburg WV, discovery flights KMRB, aviation training Eastern Panhandle WV" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+  <!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: '#1E3A8A',
+          secondary: '#0F2346',
+          gold: '#C8A44D'
+        }
+      }
+    }
+  }
+</script>
+
+<style type="text/tailwindcss">
+@layer components {
+
+  .container {
+    @apply max-w-6xl mx-auto px-6;
+  }
+
+  .section {
+    @apply py-20;
+  }
+
+  .section-light {
+    @apply bg-slate-50;
+  }
+
+  .section-white {
+    @apply bg-white;
+  }
+
+  .heading-primary {
+    @apply text-4xl md:text-5xl font-semibold tracking-tight text-secondary;
+  }
+
+  .heading-secondary {
+    @apply text-2xl md:text-3xl font-semibold text-secondary;
+  }
+
+  .body-text {
+    @apply text-base text-slate-600 leading-relaxed;
+  }
+
+  .nav-link {
+    @apply text-sm font-medium text-slate-700 hover:text-primary transition py-2;
+  }
+
+  .card {
+    @apply bg-white border border-slate-200 rounded-lg p-6 shadow-sm;
+  }
+
+  .card-title {
+    @apply text-lg font-semibold text-secondary mb-2;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-md
+           font-medium tracking-wide
+           hover:bg-secondary transition;
+  }
+
+  .btn-secondary {
+    @apply border border-slate-300 px-5 py-2 rounded-lg
+        text-slate-700 hover:border-primary
+        hover:text-primary transition;
+  }
+
+
+  .form-input {
+    @apply w-full border border-slate-300 rounded-md
+           px-4 py-2 text-slate-700
+           focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  .accent-line {
+    @apply h-px w-16 bg-gold my-4;
+  }
+
+  .footer {
+    @apply bg-secondary text-slate-300 text-sm py-6 text-center;
+  }
+
+  img {
+    transition: filter 0.3s ease;
+  }
+  img:hover {
+    filter: grayscale(10%);
+  }
+  .form-label {
+    @apply block text-sm font-medium text-slate-700 mb-1;
+  }
+}
+</style>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FlightSchool",
+    "name": "Central Aviation",
+    "description": "Professional, structured, safety-focused flight training based at Eastern West Virginia Regional Airport (KMRB). Serving Martinsburg, Winchester, Hagerstown, Charles Town, and Northern Virginia.",
+    "url": "https://centralaviation.com",
+    "image": "https://centralaviation.com/Logo.png",
+
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "170 Aviation Way",
+      "addressLocality": "Martinsburg",
+      "addressRegion": "WV",
+      "postalCode": "25405",
+      "addressCountry": "US"
+    },
+
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 39.4019,
+      "longitude": -77.9846
+    },
+
+    "areaServed": [
+      "Martinsburg WV",
+      "Winchester VA",
+      "Hagerstown MD",
+      "Charles Town WV",
+      "Loudoun County VA",
+      "Eastern Panhandle WV"
+    ],
+
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "availableLanguage": "English",
+      "areaServed": "US"
+    },
+
+    "sameAs": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/"
+    ]
+  }
+  </script>
+</head>
+
+<body class="bg-white text-slate-700">
+
+<!-- HEADER / NAV -->
+<header class="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
+  <div class="container flex justify-between items-center py-2">
+
+    <!-- Logo -->
+    <a href="#" class="flex items-center">
+      <img 
+        src="Logo.png" 
+        alt="Central Aviation logo"
+        class="h-14 md:h-16 w-auto"
+      />
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex items-center space-x-8">
+      <a href="#flight-training" class="nav-link">Flight Training</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#location" class="nav-link">Location</a>
+      <a href="#why" class="nav-link">Why Us</a>
+      <a href="#expect" class="nav-link">What to Expect</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a 
+        href="https://www.printful.com/"
+        class="nav-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Gear<span class="ml-1 text-xs align-middle">↗</span>
+      </a>
+    </nav>
+
+
+    <!-- Mobile Menu Button -->
+    <button 
+      id="menu-toggle"
+      class="md:hidden flex items-center justify-center w-10 h-10 rounded-md border border-slate-300 text-slate-700 hover:bg-slate-100"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+    >
+      <!-- Hamburger Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+           viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- Mobile Navigation Panel -->
+  <nav 
+    id="mobile-menu"
+    class="md:hidden hidden border-t border-slate-200 bg-white"
+  >
+    <div class="container py-4 flex flex-col space-y-4">
+      <a href="#flight-training" class="nav-link">Flight Training</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#location" class="nav-link">Location</a>
+      <a href="#why" class="nav-link">Why Us</a>
+      <a href="#expect" class="nav-link">What to Expect</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a 
+        href="https://www.printful.com/"
+        class="nav-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Gear<span class="ml-1 text-xs align-middle">↗</span>
+      </a>
+    </div>
+  </nav>
+
+</header>
+
+<!-- HERO -->
+<section class="section section-white">
+  <div class="container text-center max-w-4xl">
+
+    <h1 class="heading-primary mb-6">
+      Professional Flight Training at<br class="hidden md:block">
+      Eastern WV Regional Airport (KMRB)
+    </h1>
+
+    <div class="accent-line mx-auto"></div>
+
+    <p class="body-text max-w-2xl mx-auto mb-8">
+      Structured, methodical flight training led by an experienced CFI/CFII/MEI in a 
+      calm, professional environment. Based at KMRB — a towered, low-congestion airport 
+      serving Martinsburg, Winchester, Hagerstown, Charles Town, and Northern Virginia — 
+      Central Aviation offers a disciplined approach designed for long-term proficiency, 
+      not just checkride preparation.
+    </p>
+
+    <div class="flex justify-center space-x-4">
+      <a href="#discovery" class="btn-primary">Start With a Discovery Flight</a>
+      <a href="#flight-training" class="btn-secondary">Explore Flight Training</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- DISCOVERY FLIGHTS -->
+<section id="discovery" class="section section-light">
+  <div class="container max-w-3xl">
+    <h2 class="heading-secondary mb-4">Discovery Flights</h2>
+    <div class="accent-line"></div>
+
+    <p class="body-text mb-4">
+      A Discovery Flight is the ideal first step into aviation — a hands-on, 
+      low-pressure introduction that gives you a clear sense of what real flight 
+      training feels like in a structured, professional environment.
+    </p>
+
+    <p class="body-text mb-4">
+      Each flight begins with a brief, organized ground session covering the basics 
+      of flight, the aircraft, and what to expect. Once airborne, you'll take the 
+      controls yourself during a one-hour introductory lesson departing from 
+      Eastern WV Regional Airport (KMRB).
+    </p>
+
+    <p class="body-text mb-6">
+      Flights are conducted in a well-maintained Piper PA-28 and are open to anyone 
+      with no prior experience required. The $200 flat rate includes both ground 
+      instruction and flight time. Weekend availability fills quickly, so early 
+      scheduling is recommended.
+    </p>
+
+    <a href="#contact" class="btn-primary inline-block">Book a Discovery Flight</a>
+  </div>
+</section>
+
+
+
+
+<!-- TRAINING PATHWAYS -->
+<section id="flight-training" class="section section-white">
+  <div class="container">
+    <h2 class="heading-secondary mb-8">
+      Flight Training Pathways
+    </h2>
+    
+    <div class="grid lg:grid-cols-5 sm:grid-cols-2 gap-6">
+
+      <!-- Discovery Flight -->
+      <div class="card border-gold">
+        <h3 class="card-title">Discovery Flight</h3>
+        <p class="body-text">
+          Your first hour in the cockpit. Includes a structured ground briefing and 
+          hands-on flight time — $200. Ideal for anyone exploring aviation for the first time.
+        </p>
+      </div>
+
+      <!-- Private Pilot -->
+      <div class="card">
+        <h3 class="card-title">Private Pilot</h3>
+        <p class="body-text">
+          Build disciplined fundamentals, sound decision-making, and real-world confidence 
+          while training at a towered airport with low congestion.
+        </p>
+      </div>
+
+      <!-- Instrument Rating -->
+      <div class="card">
+        <h3 class="card-title">Instrument Rating</h3>
+        <p class="body-text">
+          Develop procedural IFR skills using KMRB's excellent instrument approaches and 
+          controlled airspace — ideal for efficient, real-world instrument training.
+        </p>
+      </div>
+
+      <!-- Commercial Pilot -->
+      <div class="card">
+        <h3 class="card-title">Commercial Pilot</h3>
+        <p class="body-text">
+          Master precision, professionalism, and consistent aircraft control in a stable, 
+          predictable PA-28 platform designed for advanced training.
+        </p>
+      </div>
+
+      <!-- Recurrent & Currency -->
+      <div class="card">
+        <h3 class="card-title">Recurrent & Currency</h3>
+        <p class="body-text">
+          Structured proficiency training for active pilots and aircraft owners seeking 
+          disciplined refreshers, IPCs, flight reviews, or targeted skill development.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TRAINING AIRCRAFT -->
+<section id="aircraft" class="section section-light">
+  <div class="container grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- Aircraft Image -->
+    <div>
+      <img 
+        src="pa28.png"
+        alt="Piper PA-28 training aircraft"
+        class="w-full rounded-lg border border-slate-200 shadow-sm"
+      />
+    </div>
+
+    <!-- Aircraft Copy -->
+    <div>
+      <h2 class="heading-secondary mb-4">
+        Training Aircraft
+      </h2>
+      <div class="accent-line"></div>
+
+      <p class="body-text mb-4">
+        Training is conducted in a well-maintained <strong>Piper PA-28</strong>, a stable, 
+        predictable platform trusted by flight schools for decades. Its balanced handling, 
+        excellent visibility, and forgiving flight characteristics make it ideal for both 
+        new pilots and advanced students refining precision and consistency.
+      </p>
+
+      <p class="body-text mb-4">
+        The aircraft is <strong>IFR-certified</strong>, <strong>ADS-B equipped</strong>, and 
+        maintained with a long-term ownership mindset — emphasizing reliability, clean 
+        documentation, and consistent operating practices. Students train in a professional, 
+        well-organized environment that supports efficient learning at Eastern WV Regional 
+        Airport (KMRB).
+      </p>
+
+      <p class="body-text">
+        Whether you're beginning your aviation journey or advancing toward instrument or 
+        commercial training, the PA-28 provides a safe, capable, and confidence-building 
+        platform that reflects the structured, methodical approach used throughout 
+        Central Aviation's training program.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PRICING -->
+<section id="pricing" class="section section-white">
+  <div class="container max-w-3xl">
+
+    <h2 class="heading-secondary mb-4">
+      Pricing & Training Investment
+    </h2>
+    <div class="accent-line"></div>
+
+    <p class="body-text mb-6">
+      Clear, realistic cost ranges based on typical student progression at KMRB's 
+      efficient, low-congestion training environment.
+    </p>
+
+    <p class="body-text mb-4">
+      Training is billed hourly for both aircraft and instruction, and each program is 
+      tailored to your experience, consistency, and long-term goals. The estimates below 
+      reflect what most students can expect when training regularly in a structured, 
+      syllabus-based program.
+    </p>
+
+    <ul class="body-text text-sm space-y-1 mb-6">
+      <li>Hourly billing for aircraft and instruction</li>
+      <li>Progress influenced by consistency, preparation, and weather</li>
+      <li>Cost ranges reflect typical outcomes at KMRB</li>
+    </ul>
+
+    <div class="space-y-6">
+
+      <!-- Career Track -->
+      <div>
+        <h3 class="font-semibold">Career / Professional Track</h3>
+        <p class="body-text text-sm">
+          Ideal for students pursuing aviation professionally or seeking a structured, 
+          disciplined progression. KMRB's towered environment and strong IFR procedures 
+          support efficient, real-world skill development.
+        </p>
+        <ul class="body-text text-sm space-y-1 mt-2">
+          <li>Private Pilot: typically $14,000-$18,000</li>
+          <li>Instrument Rating: typically $9,000-$12,000</li>
+          <li>Ongoing training discounted through continuity</li>
+        </ul>
+      </div>
+
+      <!-- Recreational Track -->
+      <div>
+        <h3 class="font-semibold">Recreational / Personal Flying</h3>
+        <p class="body-text text-sm">
+          Designed for students training at their own pace. Costs vary based on training 
+          frequency, prior experience, and personal goals, with clear guidance provided 
+          before training begins.
+        </p>
+        <ul class="body-text text-sm space-y-1 mt-2">
+          <li>Pay-as-you-go instruction available</li>
+          <li>Flexible scheduling for personal-use pilots</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <a href="#contact" class="btn-secondary mt-8 inline-block">
+      Request a Personalized Estimate
+    </a>
+
+    <p class="text-xs text-slate-500 mt-6">
+      Detailed estimates and a personalized training plan are provided after an initial consultation.
+    </p>
+
+  </div>
+</section>
+
+
+<!-- LOCATION -->
+<section id="location" class="section section-light">
+  <div class="container max-w-4xl">
+    <h2 class="heading-secondary mb-6">
+      Training Location
+    </h2>
+    <div class="accent-line"></div>
+
+    <p class="body-text mb-4">
+      All training is conducted at <strong>Eastern West Virginia Regional Airport (KMRB)</strong>, 
+      where the aircraft is based and all instruction originates. KMRB provides a professional, 
+      towered environment with long runways, low congestion, and excellent IFR procedures — an 
+      ideal setting for efficient lessons and real-world skill development.
+    </p>
+
+    <p class="body-text mb-4">
+      Central Aviation serves students from <strong>Martinsburg WV, Winchester VA, Hagerstown MD, 
+      Charles Town WV, and Northern Virginia</strong>. Many students choose KMRB for its 
+      structured, predictable training environment without the delays, taxi times, or airspace 
+      complexity common at larger metropolitan airports.
+    </p>
+
+    <p class="body-text mb-2 font-semibold">
+      Typical Commute Times:
+    </p>
+    <ul class="body-text text-sm space-y-1 mb-4">
+      <li>Winchester → 25 minutes</li>
+      <li>Hagerstown → 20 minutes</li>
+      <li>Charles Town → 20 minutes</li>
+      <li>Leesburg → 45 minutes</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- PRINCIPAL INSTRUCTOR -->
+<section id="instructor" class="section section-white">
+  <div class="container grid md:grid-cols-3 gap-10 items-center">
+
+    <!-- Profile Image -->
+    <div class="md:col-span-1 flex flex-col items-center text-center">
+      <img 
+        src="profileimage.png"
+        alt="Andy — Principal Flight Instructor at Central Aviation"
+        class="w-48 h-48 object-cover rounded-lg border border-slate-200 shadow-sm mb-3"
+      />
+      <p class="text-xs text-slate-500">Andy — Principal Instructor & Operator</p>
+    </div>
+
+    <!-- Profile Copy -->
+    <div class="md:col-span-2">
+      <h2 class="heading-secondary mb-4">
+        Principal Instructor & Operator
+      </h2>
+      <div class="accent-line"></div>
+
+      <p class="body-text mb-4">
+        Andy is a CFI, CFII, and MEI who brings a calm, methodical approach to flight training. 
+        His focus is on disciplined fundamentals, sound aeronautical decision‑making, and 
+        developing pilots who are confident, capable, and prepared for real‑world flying.
+      </p>
+
+      <p class="body-text mb-4">
+        Before becoming a flight instructor, Andy served as a state regulator in the horse racing 
+        industry — an environment defined by strict safety standards, operational oversight, and 
+        disciplined compliance. That experience directly informs how he structures training, 
+        manages risk, and maintains a professional training environment.
+      </p>
+
+      <p class="body-text mb-4">
+        He trains exclusively at Eastern WV Regional Airport (KMRB) — a deliberate choice 
+        that gives students a towered, low‑congestion environment ideal for efficient 
+        lessons and real‑world ATC communication experience. His instructional style 
+        emphasizes clarity, structure, and steady progression from day one.
+      </p>
+
+
+      <p class="body-text">
+        Whether you're pursuing aviation as a career or flying for personal enjoyment, Andy’s 
+        goal is to provide a supportive, professional training experience that builds long‑term 
+        proficiency — not just checkride readiness.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- WHY CENTRAL AVIATION -->
+<section id="why" class="section section-light">
+  <div class="container">
+
+    <h2 class="heading-secondary mb-4">
+      Why Central Aviation
+    </h2>
+    <div class="accent-line mb-8"></div>
+
+    <div class="grid md:grid-cols-4 gap-6">
+
+      <div class="card">
+        <h3 class="card-title">Structured Training</h3>
+        <p class="body-text">
+          Clear syllabi, defined milestones, and documented progress from day one — 
+          ensuring every lesson builds toward long-term proficiency.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">Instructor Expertise</h3>
+        <p class="body-text">
+          Instruction from a CFI, CFII, and MEI with experience in regulated safety 
+          environments, disciplined operations, and professional aviation standards.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">Career-Oriented Approach</h3>
+        <p class="body-text">
+          Training designed to support airline, corporate, and professional pathways — 
+          or to help owners and recreational pilots build lasting, confident skills.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">KMRB Training Advantages</h3>
+        <ul class="body-text text-sm space-y-1 mt-2">
+          <li>Towered airport with professional ATC</li>
+          <li>Long runways ideal for training</li>
+          <li>Low congestion for efficient lessons</li>
+          <li>Excellent IFR procedures and airspace</li>
+          <li>Faster, more consistent training than Northern VA</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- IS CENTRAL AVIATION A GOOD FIT -->
+<section id="good-fit" class="section section-white">
+  <div class="container max-w-3xl">
+
+    <h2 class="heading-secondary mb-4">
+      Is Central Aviation a Good Fit?
+    </h2>
+    <div class="accent-line"></div>
+
+    <p class="body-text mb-6">
+      Central Aviation is intentionally structured for students who value a disciplined, 
+      professional training environment. Andy's instructional style is calm, methodical, 
+      and focused on long-term proficiency — ideal for pilots who want more than the 
+      minimums and appreciate clear expectations, steady progression, and real-world 
+      readiness.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6 text-sm text-slate-700">
+
+      <!-- Good Fit -->
+      <div>
+        <h3 class="font-semibold body-text mb-2">A good fit if you:</h3>
+        <ul class="body-text text-sm list-disc list-inside space-y-1">
+          <li>Prefer structured, syllabus-based instruction</li>
+          <li>Can train consistently and value steady, measurable progress</li>
+          <li>Appreciate a calm, methodical teaching style</li>
+          <li>Prioritize safety, preparation, and sound judgment</li>
+          <li>Want to train at a towered, low-congestion airport</li>
+          <li>Are pursuing aviation seriously — career or personal mastery</li>
+        </ul>
+      </div>
+
+      <!-- Not a Fit -->
+      <div>
+        <h3 class="font-semibold body-text mb-2">May not be a fit if you:</h3>
+        <ul class="body-text text-sm list-disc list-inside space-y-1">
+          <li>Are seeking the lowest possible hourly rate</li>
+          <li>Prefer informal or unstructured instruction</li>
+          <li>Can only train sporadically or without consistency</li>
+          <li>Are looking for a casual “club” environment</li>
+          <li>Prefer a fast-and-loose approach over disciplined fundamentals</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- WHAT TO EXPECT -->
+<section id="expect" class="section section-light">
+  <div class="container max-w-4xl">
+    <h2 class="heading-secondary mb-6">
+      What to Expect as a Student
+    </h2>
+    <div class="accent-line"></div>
+
+    <ul class="body-text text-sm list-disc list-inside space-y-3">
+      <li>
+        Structured, syllabus-based lessons aligned with FAA ACS standards and tailored to 
+        your individual goals and pace.
+      </li>
+
+      <li>
+        Clear expectations for each lesson, stage of training, and required preparation — 
+        ensuring steady, predictable progress.
+      </li>
+
+      <li>
+        Training at a towered, low-congestion airport (KMRB), providing efficient lessons 
+        and real-world communication experience with professional ATC.
+      </li>
+
+      <li>
+        A calm, methodical instructional style with emphasis on aeronautical decision-making, 
+        risk management, and disciplined fundamentals.
+      </li>
+
+      <li>
+        Consistent feedback, documented progress tracking, and transparent communication 
+        about strengths, areas for improvement, and next steps.
+      </li>
+
+      <li>
+        Training records maintained to professional, insurance, and long-term career 
+        standards — supporting future opportunities in aviation.
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section section-white">
+  <div class="container max-w-3xl">
+
+    <h2 class="heading-secondary mb-4">Frequently Asked Questions</h2>
+    <div class="accent-line"></div>
+
+    <div class="mt-6 space-y-4">
+
+      <!-- FAQ Item -->
+      <div class="border border-slate-200 rounded-lg overflow-hidden">
+        <button 
+          class="faq-toggle w-full flex justify-between items-center px-4 py-3 font-semibold bg-white hover:bg-slate-50"
+          aria-expanded="false"
+        >
+          <span>Do I need a medical certificate before starting?</span>
+          <svg class="faq-icon h-5 w-5 text-slate-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-4 text-sm text-slate-700">
+          <p class="py-3">
+            You don’t need a medical certificate to begin lessons or take a Discovery Flight. 
+            A third‑class medical is required before you can solo, and I’ll guide you through 
+            that process when the time comes.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-slate-200 rounded-lg overflow-hidden">
+        <button 
+          class="faq-toggle w-full flex justify-between items-center px-4 py-3 font-semibold bg-white hover:bg-slate-50"
+          aria-expanded="false"
+        >
+          <span>How long does it take to earn a Private Pilot certificate?</span>
+          <svg class="faq-icon h-5 w-5 text-slate-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-4 text-sm text-slate-700">
+          <p class="py-3">
+            Most students complete their Private Pilot training in 4–8 months, depending on 
+            consistency, weather, and preparation between lessons. Training frequency has the 
+            biggest impact on overall timeline.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-slate-200 rounded-lg overflow-hidden">
+        <button 
+          class="faq-toggle w-full flex justify-between items-center px-4 py-3 font-semibold bg-white hover:bg-slate-50"
+          aria-expanded="false"
+        >
+          <span>How often should I train to make steady progress?</span>
+          <svg class="faq-icon h-5 w-5 text-slate-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-4 text-sm text-slate-700">
+          <p class="py-3">
+            Consistency matters more than anything else. Most students fly 1–3 times per week 
+            to maintain momentum and reduce total training time.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-slate-200 rounded-lg overflow-hidden">
+        <button 
+          class="faq-toggle w-full flex justify-between items-center px-4 py-3 font-semibold bg-white hover:bg-slate-50"
+          aria-expanded="false"
+        >
+          <span>What aircraft do you use for training?</span>
+          <svg class="faq-icon h-5 w-5 text-slate-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-4 text-sm text-slate-700">
+          <p class="py-3">
+            Training is conducted in a well‑maintained Piper PA‑28, an ideal platform for both 
+            primary and instrument instruction.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-slate-200 rounded-lg overflow-hidden">
+        <button 
+          class="faq-toggle w-full flex justify-between items-center px-4 py-3 font-semibold bg-white hover:bg-slate-50"
+          aria-expanded="false"
+        >
+          <span>What should I bring to my first lesson or Discovery Flight?</span>
+          <svg class="faq-icon h-5 w-5 text-slate-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-4 text-sm text-slate-700">
+          <p class="py-3">
+            A valid photo ID, comfortable clothing, and sunglasses are all you need. 
+            If you have a logbook or headset, bring them — otherwise I’ll provide 
+            what’s required for the lesson.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-slate-200 rounded-lg overflow-hidden">
+        <button 
+          class="faq-toggle w-full flex justify-between items-center px-4 py-3 font-semibold bg-white hover:bg-slate-50"
+          aria-expanded="false"
+        >
+          <span>Can I train if I wear glasses?</span>
+          <svg class="faq-icon h-5 w-5 text-slate-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-4 text-sm text-slate-700">
+          <p class="py-3">
+            Yes. Corrective lenses are completely acceptable for flight training and for the 
+            FAA medical. Many pilots fly with glasses or contacts.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-slate-200 rounded-lg overflow-hidden">
+        <button 
+          class="faq-toggle w-full flex justify-between items-center px-4 py-3 font-semibold bg-white hover:bg-slate-50"
+          aria-expanded="false"
+        >
+          <span>What happens if weather cancels a lesson?</span>
+          <svg class="faq-icon h-5 w-5 text-slate-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-4 text-sm text-slate-700">
+          <p class="py-3">
+            Weather is a normal part of aviation. If conditions aren’t suitable for safe, 
+            productive training, we’ll reschedule or shift to ground instruction. 
+            I’ll always communicate early and clearly so you know what to expect.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-slate-200 rounded-lg overflow-hidden">
+        <button 
+          class="faq-toggle w-full flex justify-between items-center px-4 py-3 font-semibold bg-white hover:bg-slate-50"
+          aria-expanded="false"
+        >
+          <span>What happens after I submit the contact form?</span>
+          <svg class="faq-icon h-5 w-5 text-slate-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-4 text-sm text-slate-700">
+          <p class="py-3">
+            I personally review your information and follow up within one business day 
+            with clear next steps, guidance, and a recommended training plan.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="text-center mt-12">
+    <p class="text-slate-600 mb-3">Still have questions or want to talk through your goals?</p>
+    <a 
+      href="#contact" 
+      class="inline-block px-6 py-3 bg-primary text-white rounded-lg shadow hover:bg-secondary transition"
+    >
+      Get in Touch
+    </a>
+
+  </div>
+
+</section>
+
+<!-- STUDENT INTAKE -->
+<section id="contact" class="section section-light">
+  <div class="container max-w-3xl">
+
+    <h2 class="heading-secondary mb-4">Request Training Information</h2>
+    <div class="accent-line"></div>
+
+    <p class="body-text mb-2">
+      Share a few details below and I'll follow up personally within one business day with clear next steps.
+      This helps me understand your goals and recommend the best path forward.
+    </p>
+
+
+    <p class="text-xs text-slate-500 mb-6">
+      Your information is kept private and is never shared. Every inquiry is reviewed 
+      personally to ensure a thoughtful, individualized response.
+    </p>
+
+
+
+    <!-- FORM -->
+    <form
+      id="intakeForm"
+      action="https://script.google.com/macros/s/AKfycbx3xlyBw18sEkq7bkuwwiUdkcPCCMqHFs8vM0jOIToL1z5pLPoDFZp0ls7St3Qg2ak/exec"
+      method="POST"
+      target="hidden_iframe"
+      onsubmit="handleFormSubmit()"
+      class="mt-8 space-y-6 bg-white p-8 rounded-xl shadow-md border border-slate-200"
+    >
+
+    <h3 class="text-base font-semibold text-secondary mb-4">
+      Student Information
+    </h3>
+
+
+      <!-- Honeypot (spam protection) -->
+      <input type="text" name="company" tabindex="-1" autocomplete="off" class="hidden">
+
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div>
+          <label class="form-label">First Name</label>
+          <input type="text" name="firstname" required class="form-input" autocomplete="given-name">
+        </div>
+        <div>
+          <label class="form-label">Last Name</label>
+          <input type="text" name="lastname" required class="form-input" autocomplete="family-name">
+        </div>
+      </div>
+
+      <div>
+        <label class="form-label">Email Address</label>
+        <input type="email" name="email" required class="form-input" autocomplete="email">
+      </div>
+
+      <div>
+        <label class="form-label">Phone (optional — text preferred)</label>
+        <input type="tel" name="phone" class="form-input" autocomplete="tel">
+      </div>
+
+      <div>
+        <label class="form-label">Training Goal</label>
+        <select name="track" required class="form-input">
+          <option value="">Select one</option>
+          <option value="Discovery Flight">Discovery Flight — $200</option>
+          <option value="Recreational Private Pilot">Private Pilot (Recreational)</option>
+          <option value="Instrument Rating">Instrument Rating</option>
+          <option value="Commercial / Career Track">Commercial / Career Track</option>
+          <option value="Recurrent / Currency">Recurrent / Currency Training</option>
+        </select>
+      </div>
+
+      <hr class="border-slate-200 my-4">
+
+      <h3 class="text-base font-semibold text-secondary mt-2 mb-4">
+        Additional Details (Optional)
+      </h3>
+
+
+      <!-- Optional: Start timeline -->
+      <div>
+        <label class="form-label">Preferred Start Timeline (optional)</label>
+        <select name="timeline" class="form-input">
+          <option value="">Select one</option>
+          <option>As soon as possible</option>
+          <option>Within 1-3 months</option>
+          <option>3-6 months</option>
+          <option>Just gathering information</option>
+        </select>
+      </div>
+
+      <!-- Optional: How did you hear about us -->
+      <div>
+        <label class="form-label">How did you hear about us? (optional)</label>
+        <input type="text" name="referral" class="form-input" placeholder="Google, friend, social media, etc.">
+      </div>
+
+      <div>
+        <label class="form-label">Message (optional)</label>
+        <textarea
+          name="message"
+          rows="4"
+          placeholder="Tell me a bit about your background, timeline, or questions."
+          class="form-input"
+        ></textarea>
+      </div>
+
+      <!-- What happens next -->
+      <p class="text-xs text-slate-500">
+        After you submit, I'll review your goals and follow up within one business day with clear next steps.
+      </p>
+
+      <button
+        type="submit"
+        id="submitBtn"
+        class="btn-primary w-full"
+      >
+        Request Information
+      </button>
+
+    </form>
+
+    <!-- Secondary CTA -->
+    <p class="text-sm text-slate-600 mt-4">
+      Prefer to talk first? <a href="tel:6067489126" class="text-primary underline">Call or text me</a> and I'll help you determine the best next step.
+    </p>
+
+
+    <!-- SUCCESS MESSAGE -->
+    <div
+      id="successMessage"
+      class="hidden mt-8 p-6 rounded-xl bg-green-50 border border-green-200 text-green-900 shadow-sm"
+    >
+      <h3 class="text-lg font-semibold mb-2">Thank you — your request has been received.</h3>
+      <p class="mb-1">
+        I'll review your information personally and follow up within one business day with clear next steps.
+      </p>
+      <p>
+        Looking forward to learning more about your goals and helping you get started.
+      </p>
+    </div>
+
+
+
+    <!-- Hidden iframe target -->
+    <iframe name="hidden_iframe" class="hidden"></iframe>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-secondary text-slate-300 text-sm py-10">
+  <div class="container max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+
+    <!-- Column 1: Branding -->
+    <div>
+      <img 
+        src="Logo.png" 
+        alt="Central Aviation logo" 
+        class="h-12 w-auto mb-4"
+      />
+      <p class="leading-relaxed">
+        Professional, structured flight training based at 
+        <strong>Eastern WV Regional Airport (KMRB)</strong>.
+      </p>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div>
+      <h3 class="font-semibold text-white mb-3">Quick Links</h3>
+      <ul class="space-y-2">
+        <li><a href="#flight-training" class="hover:text-white transition">Flight Training</a></li>
+        <li><a href="#pricing" class="hover:text-white transition">Pricing</a></li>
+        <li><a href="#location" class="hover:text-white transition">Location</a></li>
+        <li><a href="#why" class="hover:text-white transition">Why Us</a></li>
+        <li><a href="#expect" class="hover:text-white transition">What to Expect</a></li>
+        <li><a href="#faq" class="hover:text-white transition">FAQ</a></li>
+        <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+        <li>
+          <a 
+            href="https://www.printful.com/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="hover:text-white transition"
+          >
+            Gear<span class="ml-1 text-xs align-middle">↗</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Column 3: Contact & CTA -->
+    <div>
+      <h3 class="font-semibold text-white mb-3">Get in Touch</h3>
+      <p class="leading-relaxed mb-3">
+        Serving Martinsburg&nbsp;WV, Winchester&nbsp;VA, Hagerstown&nbsp;MD, 
+        Charles&nbsp;Town&nbsp;WV, and Northern&nbsp;Virginia.
+      </p>
+
+      <p class="mb-4">
+        <strong>Phone:</strong> <a href="tel:6067489126" class="hover:text-white">(606) 748-9126</a><br>
+        <strong>Email:</strong> <a href="mailto:info@centralaviation.com" class="hover:text-white">info@centralaviation.com</a>
+      </p>
+
+      <a 
+        href="#contact" 
+        class="inline-block bg-primary text-white px-5 py-3 rounded-md font-medium hover:bg-gold hover:text-secondary transition"
+      >
+        Book a Discovery Flight
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="text-center text-slate-400 text-xs mt-10">
+    © <span id="year"></span> Central Aviation • Eastern WV Regional Airport (KMRB) • Martinsburg, WV
+  </div>
+
+  <script>
+    // Auto-update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+
+<script>
+  const toggleButton = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  toggleButton.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('hidden');
+    toggleButton.setAttribute(
+      'aria-expanded',
+      (!isOpen).toString()
+    );
+  });
+
+  document.querySelectorAll('#mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+      toggleButton.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
+<script>
+function handleFormSubmit() {
+  const form = document.getElementById('intakeForm');
+  const success = document.getElementById('successMessage');
+  const button = document.getElementById('submitBtn');
+
+  // Disable button to prevent double submits
+  button.disabled = true;
+  button.textContent = 'Submitting...';
+
+  // Delay ensures the POST completes before UI changes
+  setTimeout(() => {
+    form.classList.add('hidden');
+    success.classList.remove('hidden');
+    success.scrollIntoView({ behavior: 'smooth' });
+  }, 800);
+}
+</script>
+
+<!-- FAQ Accordion Script -->
+<script>
+  const toggles = document.querySelectorAll('.faq-toggle');
+
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+
+      // Close all other items
+      toggles.forEach(other => {
+        if (other !== toggle) {
+          other.setAttribute('aria-expanded', 'false');
+          other.nextElementSibling.style.maxHeight = null;
+          other.querySelector('.faq-icon').classList.remove('rotate-180');
+        }
+      });
+
+      // Toggle this item
+      const content = toggle.nextElementSibling;
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+
+      toggle.setAttribute('aria-expanded', !expanded);
+      toggle.querySelector('.faq-icon').classList.toggle('rotate-180');
+
+      if (!expanded) {
+        content.style.maxHeight = content.scrollHeight + 'px';
+      } else {
+        content.style.maxHeight = null;
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

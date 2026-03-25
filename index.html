@@ -90,7 +90,7 @@
   }
 
   .nav-link {
-    @apply text-sm font-medium text-slate-700 hover:text-primary transition py-2;
+    @apply text-sm font-medium text-slate-700 hover:text-primary transition py-2 block;
   }
 
   .card {
@@ -194,7 +194,7 @@
 
 <!-- HEADER / NAV -->
 <header class="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
-  <div class="container flex justify-between items-center py-2">
+  <div class="container flex justify-between items-center py-2 md:py-2 min-h-[64px]">
 
     <!-- Logo -->
     <a href="#" class="flex items-center">
@@ -245,13 +245,13 @@
     id="mobile-menu"
     class="md:hidden hidden border-t border-slate-200 bg-white"
   >
-    <div class="container py-4 flex flex-col space-y-4">
-      <a href="#flight-training" class="nav-link">Flight Training</a>
-      <a href="#pricing" class="nav-link">Pricing</a>
-      <a href="#location" class="nav-link">Location</a>
-      <a href="#why" class="nav-link">Why Fly With Me</a>
-      <a href="#expect" class="nav-link">What to Expect</a>
-      <a href="#contact" class="nav-link">Contact</a>
+    <div class="container py-3 pb-5 flex flex-col">
+      <a href="#flight-training" class="nav-link border-b border-slate-100 pb-3 mb-3">Flight Training</a>
+      <a href="#pricing" class="nav-link border-b border-slate-100 pb-3 mb-3">Pricing</a>
+      <a href="#location" class="nav-link border-b border-slate-100 pb-3 mb-3">Location</a>
+      <a href="#why" class="nav-link border-b border-slate-100 pb-3 mb-3">Why Fly With Me</a>
+      <a href="#expect" class="nav-link border-b border-slate-100 pb-3 mb-3">What to Expect</a>
+      <a href="#contact" class="nav-link border-b border-slate-100 pb-3 mb-3">Contact</a>
       <a 
         href="https://www.printful.com/"
         class="nav-link"
@@ -1122,7 +1122,7 @@
 
       <p class="mb-4">
         <strong>Phone:</strong> <a href="tel:6067489126" class="hover:text-white">(606) 748-9126</a><br>
-        <strong>Email:</strong> <a href="mailto:info@flywithandy.com" class="hover:text-white">info@flywithandy.com</a>
+        <strong>Email:</strong> <a href="/cdn-cgi/l/email-protection#2c45424a436c4a40555b4558444d424855024f4341" class="hover:text-white"><span class="__cf_email__" data-cfemail="6900070f06290f05101e001d0108070d10470a0604">[email&#160;protected]</span></a>
       </p>
 
       <a 
@@ -1140,7 +1140,7 @@
     © <span id="year"></span> Fly With Andy • Eastern WV Regional Airport (KMRB) • Martinsburg,&nbsp;WV
   </div>
 
-  <script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // Auto-update year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
@@ -1207,16 +1207,4 @@ function handleFormSubmit() {
       const expanded = toggle.getAttribute('aria-expanded') === 'true';
 
       toggle.setAttribute('aria-expanded', !expanded);
-      toggle.querySelector('.faq-icon').classList.toggle('rotate-180');
-
-      if (!expanded) {
-        content.style.maxHeight = content.scrollHeight + 'px';
-      } else {
-        content.style.maxHeight = null;
-      }
-    });
-  });
-</script>
-
-</body>
-</html>
+      toggle.quer

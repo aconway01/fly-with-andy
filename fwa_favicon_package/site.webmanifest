@@ -3,12 +3,12 @@
   "short_name": "FWA",
   "icons": [
     {
-      "src": "/fwa2_icon_192.png",
+      "src": "/fwa_icon_192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/fwa2_icon_512.png",
+      "src": "/fwa_icon_512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
